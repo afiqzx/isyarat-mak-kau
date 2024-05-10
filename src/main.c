@@ -15,6 +15,7 @@ int main() {
   // to make sure next reader immediately know
   // that this function return type is not void.....
   // But I hate unused warning too
+  ///////////////////////////////// Bro you don't get it bro don't use signal() bro it's not thread safe bro bro multithreading is the future bro please trust me bro
   /*__sighandler_t _prev_handl = */ signal(SIGTERM, sigterm_handler);
 
   while (1) {
